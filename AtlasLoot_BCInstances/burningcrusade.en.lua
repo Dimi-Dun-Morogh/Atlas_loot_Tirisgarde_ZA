@@ -4805,6 +4805,48 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 81395, "", "=q6=Atiesh, Greatstaff of the Guardian", "=ds=#w9#", "0%" },
 	};
 
+	BWLPravus = {
+		{ 59142, "", "=q5=Hellforge Cleaver", "=ds=#h2#, #w1#", "1%" },
+		{ 59156, "", "=q5=Stable Infusion", "=ds=#s14#", "5%" },
+		{ 59144, "", "=q5=Monocle of the Smarty Pants", "=ds=#s1#, #a1#", "5%" },
+		{ 0,"","","" },
+		{ 59145, "", "=q6=Leria's Evening Gown", "=ds=#s5#, =ds=#a1#", "1%" },
+		{ 59181, "", "=q6=Lucid Blade", "=ds=#h1#, #w10#", "2%" },
+		{ 59167, "", "=q6=Hex Lord's Blessing", "=ds=#h3#, #w6#", "2%" },
+		{ 0,"","","" },
+		{ 59154, "", "=q4=Hellforge Breastplate", "=ds=#s5#, #a2#", "10%" },
+		{ 0,"","","" },
+		{ 59155, "", "=q4=Fisherman's Boots", "=ds=#s12#, #a1#", "10%" },
+		{ 59164, "", "=q4=Sun-touched Bracers", "=ds=#s8#, #a1#", "10%" },
+		{ 59165, "", "=q4=Sun-touched Boots", "=ds=#s12#, #a1#", "10%" },
+		{ 59152, "", "=q4=Spellweaver's Cowl", "=ds=#s1#, #a1#", "10%" },
+		{ 0,"","","" },
+		{ 59173, "", "=q4=Spellweaver's Wand", "=ds=#w12#", "10%" },
+		{ 59143, "", "=q4=Hellforge Pendant", "=ds=#s2#", "40%" },
+		{ 59162, "", "=q4=Locket of Blinding Light", "=ds=#s2#", "10%" },
+		{ 59138, "", "=q4=Pendant of the Damned", "=ds=#s2#", "40%" },
+		{ 0,"","","" },
+		{ 59168, "", "=q4=Hellforge Brooch", "=ds=#e15#", "10%" },
+	};
+
+	BWLTelarion = {
+		{ 199132, "", "=q6=Greater Grinchmas Holding Bag", "=q1=#e1#", "2%" },
+		{ 199131, "", "=q5=Grinchmas Holding Bag", "=q1=#e1#", "15%" },
+		{ 0,"","","" },
+		{ 80247, "", "=q5=Goodinwindi Hunting Stick", "=ds=#w11#", "5%" },
+		{ 80241, "", "=q4=Menders Plate Pauldrons Of Blackwing-Hold", "=ds=#s3#, #a4#", "10%" },
+		{ 0,"","","" },
+		{ 80242, "", "=q4=Furious Mail Spaulders Of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
+		{ 80243, "", "=q4=Elementalists Spauldrons Of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
+		{ 80244, "", "=q4=Mender's Mail Shoulderpads of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
+		{ 0,"","","" },
+		{ 80246, "", "=q4=Mender's Leather Spaulders of Blackwing-Hold", "=q1=#m1# =ds=#c1#", "10%" },
+
+
+		{ 0,"","","" },
+		{ 59168, "", "=q4=Hellforge Brooch", "=ds=#e15#", "10%" },
+	};
+
 	BWLZytolis = {
 		{ 59169, "", "=q7=Chromatic Heart", "=ds=#s14#", "1%" },
 		{ 0,"","","" },

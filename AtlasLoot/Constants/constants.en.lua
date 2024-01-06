@@ -1015,6 +1015,8 @@ AL:RegisterTranslations("enUS", function() return {
 	["Xa'os"] = true,
 	["Shade of Naal"] = true,
     ["Zytolis"] = true,
+    ["Pravus"] = true,
+    ["Telarion"] = true,
 
     --Zones
     ["World Drop"] = true,

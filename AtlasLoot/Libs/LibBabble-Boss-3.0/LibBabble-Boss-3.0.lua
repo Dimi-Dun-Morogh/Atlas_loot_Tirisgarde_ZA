@@ -690,6 +690,7 @@ lib:SetBaseTranslations {
 	["Gholbine"] = true,
 	["Chromatic Huntsman Varguk"] = true,
 	["Shade of Naal"] = true,
+	["Pravus"] = true,
 	["Zytolis"] = true,
 
 --Deadmines2
@@ -2055,6 +2056,8 @@ elseif GAME_LOCALE == "frFR" then
 		["Gholbine"] = "Gholbine",
 		["Chromatic Huntsman Varguk"] = "Chromatic Huntsman Varguk",
 		["Shade of Naal"] = "Shade of Naal",
+		["Pravus"] = "Pravus";
+		["Telarion"] = "Telarion";
 		["Zytolis"] = "Zytolis",
 --Ragefire Chasm
 		["Bazzalan"] = "Bazzalan",

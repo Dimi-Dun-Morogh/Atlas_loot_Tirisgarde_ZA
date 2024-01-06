@@ -256,6 +256,8 @@ AtlasLootBossNames = {
 		BabbleBoss["Gorrak"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Gholbine"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Chromatic Huntsman Varguk"].." ("..BabbleZone["Blackwing Hold"]..")";
+		BabbleBoss["Pravus"].." ("..BabbleZone["Blackwing Hold"]..")";
+		BabbleBoss["Telarion"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Shade of Naal"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Zytolis"].." ("..BabbleZone["Blackwing Hold"]..")";
 	};

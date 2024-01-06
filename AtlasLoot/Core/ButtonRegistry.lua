@@ -6236,15 +6236,29 @@ AtlasLoot_ButtonRegistry = {
 		};
 	["BWLVarguk"] = {
 		Title = AtlasLoot_TableNames["BWLVarguk"][1];
-		Next_Page = "BWLShade";
-		Next_Title = AtlasLoot_TableNames["BWLShade"][1];
+		Next_Page = "BWLTelarion";
+		Next_Title = AtlasLoot_TableNames["BWLTelarion"][1];
 		Prev_Page = "BWLGholbine";
 		Prev_Title = AtlasLoot_TableNames["BWLGholbine"][1];
 		};
-	["BWLShade"] = {
-		Title = AtlasLoot_TableNames["BWLShade"][1];
+	["BWLTelarion"] = {
+		Title = AtlasLoot_TableNames["BWLTelarion"][1];
+		Next_Page = "BWLPravus";
+		Next_Title = AtlasLoot_TableNames["BWLPravus"][1];
 		Prev_Page = "BWLVarguk";
 		Prev_Title = AtlasLoot_TableNames["BWLVarguk"][1];
+			};
+	["BWLPravus"] = {
+		Title = AtlasLoot_TableNames["BWLPravus"][1];
+		Next_Page = "BWLShade";
+		Next_Title = AtlasLoot_TableNames["BWLShade"][1];
+		Prev_Page = "BWLTelarion";
+		Prev_Title = AtlasLoot_TableNames["BWLTelarion"][1];
+		};
+	["BWLShade"] = {
+		Title = AtlasLoot_TableNames["BWLShade"][1];
+		Prev_Page = "BWLPravus";
+		Prev_Title = AtlasLoot_TableNames["BWLPravus"][1];
 		Next_Page = "BWLZytolis";
 		Next_Title = AtlasLoot_TableNames["BWLZytolis"][1];
 		};

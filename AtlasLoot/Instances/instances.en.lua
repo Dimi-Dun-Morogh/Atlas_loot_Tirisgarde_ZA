@@ -852,6 +852,9 @@ AtlasLootBossButtons = {
 		"BWLGholbine";
 		"BWLVarguk";
 		"BWLShade";
+        "BWLZytolis";
+        "BWLTelarion";
+        "BWLPravus";
         };
 
 	Deadmines2 = {

@@ -1078,6 +1078,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Gorrak"], "BWLGorrak" },
 		{ BabbleBoss["Gholbine"], "BWLGholbine" },
 		{ BabbleBoss["Chromatic Huntsman Varguk"], "BWLVarguk" },
+		{ BabbleBoss["Telarion"], "BWLTelarion" },
+		{ BabbleBoss["Pravus"], "BWLPravus" },
 		{ BabbleBoss["Shade of Naal"], "BWLShade" },
 		{ BabbleBoss["Zytolis"], "BWLZytolis" },
 	},

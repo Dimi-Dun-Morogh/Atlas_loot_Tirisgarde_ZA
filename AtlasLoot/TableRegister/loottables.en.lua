@@ -736,6 +736,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["BWLGorrak"] = { BabbleBoss["Gorrak"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLGholbine"] = { BabbleBoss["Gholbine"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLVarguk"] = { BabbleBoss["Chromatic Huntsman Varguk"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLTelarion"] = { BabbleBoss["Telarion"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLPravus"] = { BabbleBoss["Pravus"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLShade"] = { BabbleBoss["Shade of Naal"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLZytolis"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
   --Deadmines2

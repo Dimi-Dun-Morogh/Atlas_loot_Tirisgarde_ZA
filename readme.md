@@ -54,7 +54,7 @@ Join the Tirisgarde community discord for discussion and help: (https://discord.
 ##changelog:
 1.42:
 <ul>
-<li>added : Zytolis</li>
+<li>added : Zytolis, Pravus, Telarion</li>
 <li>updated : Kastyon, Gholbine, Varguk</li>
 <li>updated: Derp, Guth</li>
 <li>updated: Larsh, Dracien</li>

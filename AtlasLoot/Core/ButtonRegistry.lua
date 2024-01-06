@@ -2968,14 +2968,14 @@ AtlasLoot_ButtonRegistry = {
 		Title = AtlasLoot_TableNames["SMCathMidas2"][1];
 		Prev_Page = "SMCathMidas";
 		Prev_Title = AtlasLoot_TableNames["SMCathMidas"][1];
+		Next_Page = "SMCathMidasHC";
+		Next_Title = AtlasLoot_TableNames["SMCathMidas2"][1];
 		};
 	["SMCathMidasHC"] = {
 		-- Title = AtlasLoot_TableNames["SMCathMidasHC"][1];
 		Title = "King Midas Heroic";
-		-- Next_Page = "SMCathBerean";
-		-- Next_Title = AtlasLoot_TableNames["SMCathBerean"][1];
-		-- Prev_Page = "SMCathLarsh";
-		-- Prev_Title = AtlasLoot_TableNames["SMCathLarsh"][1];
+		Prev_Page = "SMCathMidas2";
+		-- Prev_Title = AtlasLoot_TableNames["SSMCathMidas2"][1];
 		};
 	["BRDValroth"] = {
 		Title = 'Valroth (page 1)';
@@ -3060,12 +3060,19 @@ AtlasLoot_ButtonRegistry = {
 		};
 	["OnysLairDreadscale"] = {
 		Title = AtlasLoot_TableNames["OnysLairDreadscale"][1];
+		-- Next_Page = "OnysLairIllidan";
+		-- Next_Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
+		Next_Page = "OnysLairDreadscaleHC";
+		};
+	["OnysLairDreadscaleHC"] = {
+		Title = "Dreadscale Heroic";
+		Prev_Page = "OnysLairDreadscale";
 		Next_Page = "OnysLairIllidan";
 		Next_Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
 		};
 	["OnysLairIllidan"] = {
 		Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
-		Prev_Page = "OnysLairDreadscale";
+		Prev_Page = "OnysLairDreadscaleHC";
 		Prev_Title = AtlasLoot_TableNames["OnysLairDreadscale"][1];
 		};
 

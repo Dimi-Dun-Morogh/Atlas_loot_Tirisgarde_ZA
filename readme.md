@@ -1,6 +1,6 @@
 
 # AtlasLoot for Tirisgarde (v1.42)
-[![](https://i.ibb.co/M141gpP/atlsas.jpg "")](https://i.ibb.co/M141gpP/atlsas.jpg)
+[![](https://i.ibb.co/RYDD0zQ/upd.jpg "")](https://i.ibb.co/RYDD0zQ/upd.jpg)
 
 
 An enhanced loot browser for World of Warcraft on the Tirisgarde private server, with expanded loot tables and instance coverage.

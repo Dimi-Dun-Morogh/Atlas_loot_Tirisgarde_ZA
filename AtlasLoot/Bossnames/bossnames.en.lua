@@ -230,6 +230,7 @@ AtlasLootBossNames = {
 		BabbleBoss["Highlord Dracien"].." ("..BabbleZone["Scarlet Monastery 2"]..")";
 		BabbleBoss["Vindicator Berean"].." ("..BabbleZone["Scarlet Monastery 2"]..")";
 		BabbleBoss["King Midas"].." ("..BabbleZone["Scarlet Monastery 2"]..")";
+		BabbleBoss["King MidasHC"].." ("..BabbleZone["Scarlet Monastery 2"]..")";
 	};
 
 	BlackrockDepths2 = {
@@ -246,6 +247,7 @@ AtlasLootBossNames = {
 
 	OnysLair = {
 		BabbleBoss["Dreadscale"].." ("..BabbleZone["Onyxia's Lair 2"]..")";
+		BabbleBoss["DreadscaleHC"].." ("..BabbleZone["Onyxia's Lair 2"]..")";
 		BabbleBoss["Illidan"].." ("..BabbleZone["Onyxia's Lair 2"]..")";
 	};
 
@@ -254,7 +256,8 @@ AtlasLootBossNames = {
 		BabbleBoss["Gorrak"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Gholbine"].." ("..BabbleZone["Blackwing Hold"]..")";
 		BabbleBoss["Chromatic Huntsman Varguk"].." ("..BabbleZone["Blackwing Hold"]..")";
-		BabbleBoss["Ogmeth"].." ("..BabbleZone["Blackwing Hold"]..")";
+		BabbleBoss["Shade of Naal"].." ("..BabbleZone["Blackwing Hold"]..")";
+		BabbleBoss["Zytolis"].." ("..BabbleZone["Blackwing Hold"]..")";
 	};
 
 	Deadmines2 = {
@@ -270,7 +273,6 @@ AtlasLootBossNames = {
 	VoidHold = {
 		BabbleBoss["Crystalcore Defender"].." ("..BabbleZone["Void Hold"]..")";
 		BabbleBoss["Xa'os"].." ("..BabbleZone["Void Hold"]..")";
-		BabbleBoss["Test"].." ("..BabbleZone["Void Hold"]..")";
 	};
 
 	GuthrotsLab = {

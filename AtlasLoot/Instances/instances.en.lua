@@ -154,7 +154,9 @@ AtlasLootBossButtons = {
 
     BlackrockDepths2 = {
         "BRDValroth";
+        "BRDValroth2";
         "BRDCratoriun";
+        "BRDCratoriun2";
         "BRDNerothar";
         "BRDGungo";
         "BRDVolcanus";
@@ -840,6 +842,7 @@ AtlasLootBossButtons = {
 
     OnysLair = {
         "Dreadscale";
+        "DreadscaleHC";
         "Illidan";
         };
 
@@ -848,7 +851,7 @@ AtlasLootBossButtons = {
         "BWLGorrak";
 		"BWLGholbine";
 		"BWLVarguk";
-		"BWLOgmeth";
+		"BWLShade";
         };
 
 	Deadmines2 = {
@@ -1024,6 +1027,7 @@ AtlasLootBossButtons = {
         "SMCathBerean";
         "SMCathMidas";
         "SMCathMidas2";
+        "SMCathMidasHC";
         };
 
     Stratholme = {

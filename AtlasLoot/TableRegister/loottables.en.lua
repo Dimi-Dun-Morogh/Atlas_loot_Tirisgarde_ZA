@@ -447,11 +447,14 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["SMCathBerean"] = { BabbleBoss["Vindicator Berean"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["SMCathMidas"] = { BabbleBoss["King Midas"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["SMCathMidas2"] = { BabbleBoss["King Midas"], "AtlasLootExpansionItems" };
-
+	AtlasLoot_TableNames["SMCathMidasHC"] = { BabbleBoss["King MidasHC"], "AtlasLootExpansionItems" };
   --Blackrock Depths 2
 	AtlasLoot_TableNames["BRDValroth"] = { BabbleBoss["Valroth"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BRDValroth2"] = { BabbleBoss["Valroth"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BRDCratoriun"] = { BabbleBoss["Cratoriun"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BRDCratoriun2"] = { BabbleBoss["Cratoriun"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BRDNerothar"] = { BabbleBoss["Nerothar the Tormentor"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BRDNerothar2"] = { BabbleBoss["Nerothar the Tormentor"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BRDGungo"] = { BabbleBoss["Blood Guard Gungo"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BRDVolcanus"] = { BabbleBoss["Volcanus"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BRDEllcrys"] = { BabbleBoss["Lord Ellcrys"], "AtlasLootExpansionItems" };
@@ -462,12 +465,13 @@ AtlasLoot_TableNames = {};
 
   --Onyxia's Lair 2
 	AtlasLoot_TableNames["OnysLairDreadscale"] = { BabbleBoss["Dreadscale"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["OnysLairDreadscaleHC"] = { BabbleBoss["DreadscaleHC"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["OnysLairIllidan"] = { BabbleBoss["Illidan"], "AtlasLootExpansionItems" };
 
   --Void Hold
 	AtlasLoot_TableNames["VoidHoldDefender"] = { BabbleBoss["Crystalcore Defender"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["VoidHoldXaos"] = { BabbleBoss["Xa'os"], "AtlasLootExpansionItems" };
-	AtlasLoot_TableNames["Test"] = { BabbleBoss["Xa'os"], "AtlasLootExpansionItems" };
+
 
   --Zul Farrak 2
 	AtlasLoot_TableNames["ZFKastyon"] = { BabbleBoss["Wrathcaster Kastyon"], "AtlasLootExpansionItems" };
@@ -732,7 +736,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["BWLGorrak"] = { BabbleBoss["Gorrak"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLGholbine"] = { BabbleBoss["Gholbine"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLVarguk"] = { BabbleBoss["Chromatic Huntsman Varguk"], "AtlasLootExpansionItems" };
-	AtlasLoot_TableNames["BWLOgmeth"] = { BabbleBoss["Ogmeth"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLShade"] = { BabbleBoss["Shade of Naal"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLZytolis"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
   --Deadmines2
 	AtlasLoot_TableNames["DMRhahkzor"] = { BabbleBoss["Rhahk'zor"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["DMSneedShredder"] = { BabbleBoss["Sneed's Shredder"], "AtlasLootExpansionItems" };

@@ -33,7 +33,7 @@ do
 				tablesToDB[v] = db
 			end
 		end
-		
+
 		local function warn(message)
 			local _, ret = pcall(error, message, 3)
 			geterrorhandler()(ret)
@@ -58,11 +58,11 @@ do
 				real_MAJOR_VERSION = LIBBABBLE_MAJOR
 			end
 			if base_key then
-				warn(("%s: Translation %q not found for locale %q"):format(real_MAJOR_VERSION, key, GAME_LOCALE))
+				-- warn(("%s: Translation %q not found for locale %q"):format(real_MAJOR_VERSION, key, GAME_LOCALE))
 				rawset(self, key, base_key)
 				return base_key
 			end
-			warn(("%s: Translation %q not found."):format(real_MAJOR_VERSION, key))
+			-- warn(("%s: Translation %q not found."):format(real_MAJOR_VERSION, key))
 			rawset(self, key, key)
 			return key
 		end }
@@ -689,7 +689,9 @@ lib:SetBaseTranslations {
 	["Gorrak"] = true,
 	["Gholbine"] = true,
 	["Chromatic Huntsman Varguk"] = true,
-	["Ogmeth"] = true,
+	["Shade of Naal"] = true,
+	["Zytolis"] = true,
+
 --Deadmines2
 	["Rhahk'zor"] = true,
 	["Sneed's Shredder"] = true,
@@ -751,6 +753,7 @@ lib:SetBaseTranslations {
 	["Larsh"] = true,
 	["Vindicator Berean"] = true,
 	["King Midas"] = true,
+	["King MidasHC"] = true,
 
 --Scholomance
 	["Blood Steward of Kirtonos"] = true,
@@ -1431,6 +1434,7 @@ elseif GAME_LOCALE == "deDE" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "Blutdiener von Kirtonos",
@@ -2050,7 +2054,8 @@ elseif GAME_LOCALE == "frFR" then
 		["Gorrak"] = "Gorrak",
 		["Gholbine"] = "Gholbine",
 		["Chromatic Huntsman Varguk"] = "Chromatic Huntsman Varguk",
-		["Ogmeth"] = "Chromatic Huntsman Varguk",
+		["Shade of Naal"] = "Shade of Naal",
+		["Zytolis"] = "Zytolis",
 --Ragefire Chasm
 		["Bazzalan"] = "Bazzalan",
 		["Jergosh the Invoker"] = "Jergosh l'Invocateur",
@@ -2106,6 +2111,7 @@ elseif GAME_LOCALE == "frFR" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "Régisseuse sanglante de Kirtonos",
@@ -2776,6 +2782,7 @@ elseif GAME_LOCALE == "zhCN" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "基尔图诺斯的卫士",
@@ -3447,6 +3454,8 @@ elseif GAME_LOCALE == "zhTW" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "基爾圖諾斯的衛士",
@@ -4117,6 +4126,7 @@ elseif GAME_LOCALE == "koKR" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "키르토노스의 혈지기",
@@ -4785,6 +4795,7 @@ elseif GAME_LOCALE == "esES" then
 	["Larsh"] = "Larsh",
 	["Vindicator Berean"] = "Vindicator Berean",
 	["King Midas"] = "King Midas",
+	["King MidasHC"] = "King MidasHC",
 
 --Scholomance
 		["Blood Steward of Kirtonos"] = "Administrador de sangre de Kirtonos",

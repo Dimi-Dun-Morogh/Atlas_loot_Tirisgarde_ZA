@@ -37,7 +37,7 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 local VERSION_MAJOR = "4";
 local VERSION_MINOR = "07";
 local VERSION_BOSSES = "00";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Tirisgarde v1.41.0|r";
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Tirisgarde v1.42.0|r";
 ATLASLOOT_CURRENT_ATLAS = "1.01.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.01.0";
 
@@ -469,7 +469,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
     if dataID == "SearchResult" and dataID == "WishList" then
         AtlasLoot_IsLootTableAvailable(dataID);
     end
-    
+
 	dataSource_backup = dataSource;
 	if dataSource ~= "dummy" then
 		if dataID == "SearchResult" or dataID == "WishList" then
@@ -512,7 +512,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 
 	--Hide the toggle to switch between heroic and normal loot tables, we will only show it if required
 	AtlasLootItemsFrame_Heroic:Hide();
-    
+
     --Ditch the Quicklook selector
     AtlasLoot_QuickLooks:Hide();
     AtlasLootQuickLooksButton:Hide();
@@ -692,7 +692,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 --This is a valid QuickLook, so show the UI objects
                 AtlasLoot_QuickLooks:Show();
                 AtlasLootQuickLooksButton:Show();
-                
+
 				--Insert the item description
 				extra = dataSource[dataID][i][4];
 				extra = AtlasLoot_FixText(extra);

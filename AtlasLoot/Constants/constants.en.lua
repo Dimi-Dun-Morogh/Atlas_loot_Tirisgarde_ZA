@@ -1013,8 +1013,8 @@ AL:RegisterTranslations("enUS", function() return {
 	["Wrathcaster Kastyon"] = true,
 	["Ashwing"] = true,
 	["Xa'os"] = true,
-	["Crystalcore Defender"] = true,
-    ["Test"] = true,
+	["Shade of Naal"] = true,
+    ["Zytolis"] = true,
 
     --Zones
     ["World Drop"] = true,

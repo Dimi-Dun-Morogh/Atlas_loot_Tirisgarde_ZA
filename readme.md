@@ -1,5 +1,7 @@
 
 # AtlasLoot for Tirisgarde (v1.42)
+[![An old rock in the desert](https://i.ibb.co/M141gpP/atlsas.jpg "")](https://i.ibb.co/M141gpP/atlsas.jpg)
+
 
 An enhanced loot browser for World of Warcraft on the Tirisgarde private server, with expanded loot tables and instance coverage.
 
@@ -39,9 +41,25 @@ Enable the addon in the game's AddOns menu.
 
 ## Credits:
 
-Original AtlasLoot developers (https://www.curseforge.com/wow/addons/atlasloot-enhanced)
-Contributors for Tirisgarde compatibility (PFJ, Moro, Jono, Darnel & many others)
+Original AtlasLoot developers (https://www.curseforge.com/wow/addons/atlasloot-enhanced);
+
+Contributors for Tirisgarde compatibility;
 ## Support:
 
 For issues or feedback, please create a GitHub issue on this repository.
 Join the Tirisgarde community discord for discussion and help: (https://discord.gg/QwTnUB5Rkc)
+##changelog:
+1.42:
+<ul>
+<li>added : Zytolis</li>
+<li>updated : Kastyon, Gholbine, Varguk</li>
+<li>updated: Derp, Guth</li>
+<li>updated: Larsh, Dracien</li>
+<li>added: King Midas Heroic</li>
+<li>updated:Valroth,Cratoriun,Nero, Gungo, Volc, Ellcrys, Balg</li>
+<li>updated: Dreadscale, Illidan</li>
+<li>added: Dreadscale Heroic</li>
+<li>updated: Seris, Aventine, Lord Maximus</li>
+
+<li>disabled annoying localization  warnings</li>
+</ul>

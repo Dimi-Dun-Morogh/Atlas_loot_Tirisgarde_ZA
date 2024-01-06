@@ -2,7 +2,7 @@
 local BabbleClass = LibStub("LibBabble-Class-3.0"):GetLookupTable();
 local BabbleZone = LibStub("LibBabble-Zone-3.0"):GetLookupTable();
 local BabbleInventory = LibStub("LibBabble-Inventory-3.0"):GetLookupTable();
-local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot"); 
+local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 
 -- Colours stored for code readability
 local GREY = "|cff999999";
@@ -444,19 +444,19 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "PVPMENU";
 		Back_Title = AL["PvP Rewards"];
 		};
-		
+
 	["AVArchmage"] = {
 		Title = "Archmage Vargus";
 		Back_Page = "PVPMENU";
 		Back_Title = AL["PvP Rewards"];
 		};
-		
+
 	["AVBlademaster"] = {
 		Title = "Blademaster Tor'grak";
 		Back_Page = "PVPMENU";
 		Back_Title = AL["PvP Rewards"];
 		};
-		
+
 	["AVIvusCloth1"] = {
 		Title = "Ivus the Forest Lord (Cloth 1)";
 		Next_Page = "AVIvusCloth2";
@@ -507,7 +507,7 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "PVPMENU";
 		Back_Title = AL["PvP Rewards"];
 		};
-		
+
 	["AVLokhCloth1"] = {
 		Title = "Lokholar the Ice Lord (Cloth 1)";
 		Next_Page = "AVLokhCloth2";
@@ -558,8 +558,8 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "PVPMENU";
 		Back_Title = AL["PvP Rewards"];
 		};
-		
-		
+
+
 		-- AV Set buttons
 	["AVAlliancePriest"] = {
 		Title = "AV 2 Sets (Priest)";
@@ -2949,7 +2949,7 @@ AtlasLoot_ButtonRegistry = {
 		Next_Title = AtlasLoot_TableNames["SMCathBerean"][1];
 		Prev_Page = "SMCathLarsh";
 		Prev_Title = AtlasLoot_TableNames["SMCathLarsh"][1];
-		};	
+		};
 	["SMCathBerean"] = {
 		Title = AtlasLoot_TableNames["SMCathBerean"][1];
 		Prev_Page = "SMCathDracien";
@@ -2969,25 +2969,54 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "SMCathMidas";
 		Prev_Title = AtlasLoot_TableNames["SMCathMidas"][1];
 		};
-
-	["BRDValroth"] = {
-		Title = AtlasLoot_TableNames["BRDValroth"][1];
-		Next_Page = "BRDCratoriun";
-		Next_Title = AtlasLoot_TableNames["BRDCratoriun"][1];
+	["SMCathMidasHC"] = {
+		-- Title = AtlasLoot_TableNames["SMCathMidasHC"][1];
+		Title = "King Midas Heroic";
+		-- Next_Page = "SMCathBerean";
+		-- Next_Title = AtlasLoot_TableNames["SMCathBerean"][1];
+		-- Prev_Page = "SMCathLarsh";
+		-- Prev_Title = AtlasLoot_TableNames["SMCathLarsh"][1];
 		};
+	["BRDValroth"] = {
+		Title = 'Valroth (page 1)';
+		Next_Page = "BRDValroth2";
+		-- Next_Title = AtlasLoot_TableNames["BRDCratoriun"][1];
+		Next_Title = AtlasLoot_TableNames["BRDValroth2"][1];
+		};
+	["BRDValroth2"] = {
+			Title = 'Valroth (page 2)';
+			Prev_Page = "BRDValroth";
+			Prev_Title = AtlasLoot_TableNames["BRDValroth"][1];
+			Next_Page = "BRDCratoriun";
+			Next_Title = AtlasLoot_TableNames["BRDCratoriun"][1];
+	  };
 	["BRDCratoriun"] = {
-		Title = AtlasLoot_TableNames["BRDCratoriun"][1];
-		Next_Page = "BRDNerothar";
-		Next_Title = AtlasLoot_TableNames["BRDNerothar"][1];
+		Title = 'Cratoriun (page 1)';
+		Next_Page = "BRDCratoriun2";
+		Next_Title = AtlasLoot_TableNames["BRDCratoriun2"][1];
 		Prev_Page = "BRDValroth";
 		Prev_Title = AtlasLoot_TableNames["BRDValroth"][1];
 		};
-	["BRDNerothar"] = {
-		Title = AtlasLoot_TableNames["BRDNerothar"][1];
-		Next_Page = "BRDGungo";
-		Next_Title = AtlasLoot_TableNames["BRDGungo"][1];
+	["BRDCratoriun2"] = {
+		Title = 'Cratoriun (page 2)';
+		Next_Page = "BRDNerothar";
+		Next_Title = AtlasLoot_TableNames["BRDNerothar"][1];
 		Prev_Page = "BRDCratoriun";
 		Prev_Title = AtlasLoot_TableNames["BRDCratoriun"][1];
+		};
+	["BRDNerothar"] = {
+		Title = AtlasLoot_TableNames["BRDNerothar"][1] .. " (page 1)";
+		Next_Page = "BRDNerothar2";
+		Next_Title = AtlasLoot_TableNames["BRDNerothar2"][1];
+		Prev_Page = "BRDCratoriun";
+		Prev_Title = AtlasLoot_TableNames["BRDCratoriun"][1];
+		};
+	["BRDNerothar2"] = {
+		Title = AtlasLoot_TableNames["BRDNerothar"][1] .. " (page 2)";
+		Next_Page = "BRDGungo";
+		Next_Title = AtlasLoot_TableNames["BRDGungo"][1];
+		Prev_Page = "BRDNerothar";
+		Prev_Title = AtlasLoot_TableNames["BRDNerothar"][1];
 		};
 	["BRDGungo"] = {
 		Title = AtlasLoot_TableNames["BRDGungo"][1];
@@ -3018,14 +3047,14 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Title = AtlasLoot_TableNames["BRDEllcrys"][1];
 		};
 	["BRDWeezuz"] = {
-		Title = AtlasLoot_TableNames["BRDWeezuz"][1];
+		Title = AtlasLoot_TableNames["BRDWeezuz"][1] .. " (page 1)";
 		Next_Page = "BRDWeezuz2";
 		Next_Title = AtlasLoot_TableNames["BRDWeezuz2"][1];
 		Prev_Page = "BRDBalgannon";
 		Prev_Title = AtlasLoot_TableNames["BRDBalgannon"][1];
 		};
 	["BRDWeezuz2"] = {
-		Title = AtlasLoot_TableNames["BRDWeezuz2"][1];
+		Title = AtlasLoot_TableNames["BRDWeezuz2"][1] .. " (page 2)";
 		Prev_Page = "BRDWeezuz";
 		Prev_Title = AtlasLoot_TableNames["BRDWeezuz"][1];
 		};
@@ -3050,15 +3079,15 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "VoidHoldDefender";
 		Prev_Title = AtlasLoot_TableNames["VoidHoldDefender"][1];
 		};
-		
+
 	["ZFKastyon"] = {
 		Title = AtlasLoot_TableNames["ZFKastyon"][1];
 		};
-		
+
 	["NewRagnaros"] = {
 		Title = AtlasLoot_TableNames["NewRagnaros"][1];
 		};
-		
+
 	["Derpenstein"] = {
 		Title = AtlasLoot_TableNames["Derpenstein"][1];
 		Next_Page = "Guthrot";
@@ -3077,7 +3106,7 @@ AtlasLoot_ButtonRegistry = {
 		Title = AtlasLoot_TableNames["GUnun"][1];
 		Next_Page = "GGerald";
 		Next_Title = AtlasLoot_TableNames["GGerald"][1];
-		};	
+		};
 
 	["GGerald"] = {
 		Title = AtlasLoot_TableNames["GGerald"][1];
@@ -3086,7 +3115,7 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "GUnun";
 		Prev_Title = AtlasLoot_TableNames["GUnun"][1];
 		};
-	
+
 	["GAdvisor"] = {
 		Title = AtlasLoot_TableNames["GAdvisor"][1];
 		Next_Page = "GPalinho";
@@ -3109,7 +3138,7 @@ AtlasLoot_ButtonRegistry = {
 		Next_Title = AtlasLoot_TableNames["GShadeOfNaal"][1];
 		Prev_Page = "GPalinho";
 		Prev_Title = AtlasLoot_TableNames["GPalinho"][1];
-		};	
+		};
 
 	["GShadeOfNaal"] = {
 		Title = AtlasLoot_TableNames["GShadeOfNaal"][1];
@@ -3184,7 +3213,7 @@ AtlasLoot_ButtonRegistry = {
 		Title = AtlasLoot_TableNames["BTIllidanStormrage"][1];
 		Prev_Page = "BTCouncil";
 		Prev_Title = AtlasLoot_TableNames["BTCouncil"][1];
-		}; 
+		};
 
 
 	["ZANalorakk"] = {
@@ -6200,16 +6229,24 @@ AtlasLoot_ButtonRegistry = {
 		};
 	["BWLVarguk"] = {
 		Title = AtlasLoot_TableNames["BWLVarguk"][1];
-		Next_Page = "BWLOgmeth";
-		Next_Title = AtlasLoot_TableNames["BWLOgmeth"][1];
+		Next_Page = "BWLShade";
+		Next_Title = AtlasLoot_TableNames["BWLShade"][1];
 		Prev_Page = "BWLGholbine";
 		Prev_Title = AtlasLoot_TableNames["BWLGholbine"][1];
 		};
-	["BWLOgmeth"] = {
-		Title = AtlasLoot_TableNames["BWLOgmeth"][1];
+	["BWLShade"] = {
+		Title = AtlasLoot_TableNames["BWLShade"][1];
 		Prev_Page = "BWLVarguk";
 		Prev_Title = AtlasLoot_TableNames["BWLVarguk"][1];
+		Next_Page = "BWLZytolis";
+		Next_Title = AtlasLoot_TableNames["BWLZytolis"][1];
 		};
+	["BWLZytolis"] = {
+		Title = AtlasLoot_TableNames["BWLZytolis"][1];
+		Prev_Page = "BWLShade";
+		Prev_Title = AtlasLoot_TableNames["BWLShade"][1];
+		};
+
 	["DMRhahkzor"] = {
 		Title = AtlasLoot_TableNames["DMRhahkzor"][1];
 		Next_Page = "DMSneedShredder";

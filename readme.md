@@ -1,9 +1,16 @@
 
 # AtlasLoot for Tirisgarde (v1.42)
-[![An old rock in the desert](https://i.ibb.co/M141gpP/atlsas.jpg "")](https://i.ibb.co/M141gpP/atlsas.jpg)
+[![](https://i.ibb.co/M141gpP/atlsas.jpg "")](https://i.ibb.co/M141gpP/atlsas.jpg)
 
 
 An enhanced loot browser for World of Warcraft on the Tirisgarde private server, with expanded loot tables and instance coverage.
+
+## Installation:
+
+Download the latest release from the "Releases" tab. https://github.com/Dimi-Dun-Morogh/Atlas_loot_Tirisgarde_ZA/releases
+Extract the files into your WoW Interface\AddOns directory.
+Enable the addon in the game's AddOns menu.
+[![](https://i.ibb.co/vJN6Zvh/Capture3333.jpg"")](https://i.ibb.co/M141gpP/atlsas.jpg)
 
 ## Features:
 
@@ -31,11 +38,7 @@ LibBabble-Boss-3.0.lua ???
 ButtonRegistry.lua  ??? apparently some button events here.
 
 
-## Installation:
 
-Download the latest release from the "Releases" tab.
-Extract the files into your WoW Interface\AddOns directory.
-Enable the addon in the game's AddOns menu.
 
 ## Known Issues:
 

@@ -38,10 +38,14 @@ AtlasLootWBBossButtons = {
     Ashwing = {
         "Ashwing1";
         };
-	
+
 	KezalLethon = {
 		"KezalLethon1";
 	};
+
+    WiggerlyWoo = {
+        "WiggerlyWoo1";
+    };
 
     Skettis = {
         "";

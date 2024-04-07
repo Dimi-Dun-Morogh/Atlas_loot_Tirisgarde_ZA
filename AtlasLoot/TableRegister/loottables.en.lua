@@ -1083,6 +1083,8 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["DYsondre"] = { BabbleBoss["Ysondre"], "AtlasLootWBItems" };
   --Highlord Kruul
 	AtlasLoot_TableNames["KKruul"] = { AL["Highlord Kruul"], "AtlasLootWBItems" };
+	--Wiggerly Woo
+	AtlasLoot_TableNames["WiggerlyWoo1"]  = { BabbleBoss["WiggerlyWoo"], "AtlasLootWBItems" };
 
 --------------
 --- Events ---

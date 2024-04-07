@@ -1133,6 +1133,7 @@ AtlasLoot_DewDropDown_SubTables = {
 	["WorldBosses"] = {
 		{ BabbleBoss["Kezal Lethon"], "KezalLethon1" },
 		{ BabbleBoss["Ashwing"], "Ashwing1" },
+		{ BabbleBoss["Wiggerly Woo"], "WiggerlyWoo1" },
 		{ BabbleBoss["Azuregos"], "AAzuregos" },
 		{ BabbleBoss["Doom Lord Kazzak"], "DoomLordKazzak"},
 		{ BabbleBoss["Doomwalker"], "DDoomwalker" },

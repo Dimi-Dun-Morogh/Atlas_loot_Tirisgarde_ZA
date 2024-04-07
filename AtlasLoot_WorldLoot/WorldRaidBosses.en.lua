@@ -1,7 +1,7 @@
 AtlasLoot_Data["AtlasLootWBItems"] = {
 
 	EmptyInstance = {};
-	
+
 	KezalLethon1 = {
 		{ 40069, "", "=q5=Anarchy", "=ds=#h1#, #w6#", "20%" },
 		{ 40079, "", "=q5=Murder", "=ds=#w4#", "15%" },
@@ -29,7 +29,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 199800, "", "=q6=Crystal of the Frozen Throne", "=ds=#s14#", "3%" },
 		{ 100803, "", "=q6=Frostmourne", "=ds=#h2#, #w10#", "2%" },
 		{ 100804, "", "=q6=Talisman of the Lich King", "=ds=#s2#", "5%" },
-		
+
 	};
 
 	Ashwing1 = {
@@ -224,5 +224,37 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 18665, "", "=q4=The Eye of Shadow", "=ds=#m2# =q1=(#c5#)", "29.98%" },
 		{ 18608, "", "=q4=Benediction", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#" },
 		{ 18609, "", "=q4=Anathema", "=q1=#m4#: =ds=#w9#, =q1=#m1# =ds=#c5#" },
+	};
+
+	WiggerlyWoo1 = {
+		{ 40037, "", "=q6=Ancient Thunderfury Blessed Blade Of The Windseeker [Dps]",		   "#h1# #w10# =q1=#m1# =ds=#c6# #c9# #c2#", "3%" },
+		{ 40047, "", "=q6=Ancient Sulfuras, Hand Of Ragnaros", "#h2# #w6# =q1=#m1# =ds=#c9# #c4# #c7#", "3%" },
+		{ 51467, "", "=q6=Totem of the Enraged Windfury",	 "#s16# =q1=#m1# =ds=#c7#", "3%" },
+		{ 51463, "", "=q6=Deadmine blocker 9000",	 "#s14#", "3%" },
+		{ 40095, "", "=q6=Demonic Voidslayer",	 "#h2# #w10#", "3%" },
+		{ 40119, "", "=q6=Infused Robes Of The Forgotten",	 "#a1# #s5#", "3%" },
+		{ 195205, "", "=q6=Might of the Chosen",	 "#h2# #w6#", "3%" },
+		{ 195200, "", "=q6=Treachery",	 "#h3# #w10#", "3%" },
+		{ 0,"","","" },
+		{ 40055, "", "=q5=Arcanite Spine Reaper",	 "#h2# #w1#", "5%" },
+		{ 81427, "", "=q5=Bloodmage Rocket Boots",	 "#a1# #s12#", "5%" },
+		{ 81426, "", "=q5=Defiant Rocket Boots",	 "#a4# #s12#", "5%" },
+		{ 81425, "", "=q5=Master Assassins Rocket Boots",	 "#a2# #s12#", "5%" },
+		{ 40124, "", "=q5=Malice",	 "#h1# #w1#", "5%" },
+		{ 49934, "", "=q5=Experimental Talisman",	 "#s14#", "5%" },
+		{ 49944, "", "=q5=Badge Of The Horrid Construct",	 "#s14#", "5%" },
+		{ 0,"","","" },
+		{ 40058, "", "=q4=Drape of Dragon's Blood",	 "#s4#", "10%" },
+		{ 40057, "", "=q5=Dragon's Blood Cloak",	 "#s4#", "10%" },
+		{ 40125, "", "=q5=Hex's Spaulders Of The Void",	 "#a3# #s3# =q1=#m1# =ds=#c7#", "10%" },
+		{ 197174, "", "=q5=Pauldrons of the Shattered Hand",	 "#a3# #s3#", "10%" },
+		{ 40115, "", "=q5=Shoulderbraces of the Crimson Retainer",	 "#a4# #s3# ", "10%" },
+		{ 197171, "", "=q5=Mantle of Endless Power",	 "#a1# #s3# ", "10%" },
+		{ 197130, "", "=q5=Dreadscale's Eternal Hate",	 "#s13# ", "10%" },
+		{ 197165, "", "=q5=Vhel'kur, Blaze of the Black Dragonflight",	 "#w3#", "10%" },
+		{ 195300, "", "=q5=Hallowed Helm of Knowledge",	 "#a1# #s1#", "20%" },
+		{ 195301, "", "=q5=Hallowed Helm of Purity",	 "#a1# #s1#", "20%" },
+		{ 0,"","","" },
+		{ 90223, "", "=q5=Wiggerly Woo's Spooky Shirt",	 "#s6#", "100%" },
 	};
 };

@@ -313,6 +313,7 @@ if not lib then
 end
 
 lib:SetBaseTranslations {
+	["Kastyon"] = true,
 --Ahn'Qiraj
 	["Anubisath Defender"] = true,
 	["Battleguard Sartura"] = true,
@@ -941,6 +942,7 @@ lib:SetBaseTranslations {
 	["Taerar"] = true,
 	["The Windreaver"] = true,
 	["Ysondre"] = true,
+	["Wiggerly Woo"] = true,
 
 --World's End
 	["Aventine"] = true,

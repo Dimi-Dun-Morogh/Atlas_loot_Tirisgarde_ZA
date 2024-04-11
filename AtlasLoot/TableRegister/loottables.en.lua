@@ -740,6 +740,7 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["BWLPravus"] = { BabbleBoss["Pravus"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLShade"] = { BabbleBoss["Shade of Naal"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLZytolis"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLZytolis2"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
   --Deadmines2
 	AtlasLoot_TableNames["DMRhahkzor"] = { BabbleBoss["Rhahk'zor"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["DMSneedShredder"] = { BabbleBoss["Sneed's Shredder"], "AtlasLootExpansionItems" };

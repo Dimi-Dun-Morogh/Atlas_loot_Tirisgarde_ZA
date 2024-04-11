@@ -3065,11 +3065,17 @@ AtlasLoot_ButtonRegistry = {
 		Next_Page = "OnysLairDreadscaleHC";
 		};
 	["OnysLairDreadscaleHC"] = {
-		Title = "Dreadscale Heroic";
+		Title = "Dreadscale Heroic" .. " (page 1)";
 		Prev_Page = "OnysLairDreadscale";
-		Next_Page = "OnysLairIllidan";
+		Next_Page = "OnysLairDreadscaleHC2";
 		Next_Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
 		};
+	["OnysLairDreadscaleHC2"] = {
+		Title = "Dreadscale Heroic" .. " (page 2)";
+		Prev_Page = "OnysLairDreadscaleHC";
+		Next_Page = "OnysLairIllidan";
+		Next_Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
+	};
 	["OnysLairIllidan"] = {
 		Title = AtlasLoot_TableNames["OnysLairIllidan"][1];
 		Prev_Page = "OnysLairDreadscaleHC";
@@ -6263,10 +6269,17 @@ AtlasLoot_ButtonRegistry = {
 		Next_Title = AtlasLoot_TableNames["BWLZytolis"][1];
 		};
 	["BWLZytolis"] = {
-		Title = AtlasLoot_TableNames["BWLZytolis"][1];
+		Title = AtlasLoot_TableNames["BWLZytolis"][1].. " (page 1)";
 		Prev_Page = "BWLShade";
 		Prev_Title = AtlasLoot_TableNames["BWLShade"][1];
+		Next_Page = "BWLZytolis2";
+		Next_Title = AtlasLoot_TableNames["BWLZytolis2"][1];
 		};
+	["BWLZytolis2"] = {
+		Title = AtlasLoot_TableNames["BWLZytolis2"][1] .. " (page 2)";
+		Prev_Page = "BWLShade";
+		Prev_Title = AtlasLoot_TableNames["BWLShade"][1];
+	};
 
 	["DMRhahkzor"] = {
 		Title = AtlasLoot_TableNames["DMRhahkzor"][1];

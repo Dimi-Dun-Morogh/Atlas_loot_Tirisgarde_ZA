@@ -4423,7 +4423,6 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 0,"","","" },
 		{ 195065, "INV_Belt_23", "=q4=Defiant Belt", "=q1=#m1# =ds=#c9#", "27%" },
 		{ 195073, "INV_Belt_23", "=q4=Defiant Waistguard", "=q1=#m1# =ds=#c9#", "27%" },
-
 	};
 
 	BRDTrashMobs = {
@@ -4497,14 +4496,17 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{0,"","","" },
 		{ 69169, "", "=q4=Lightforged Diadem", "=ds=#s1#, #a2# =q1=#m1# =ds=#c1#", "?%" },
 		{ 69168, "", "=q4=Dragonlord's Guidance", "=ds=#s1#, #a2# =q1=#m1# =ds=#c1#", "?%" },
+		{ 69154, "", "=q5=Thunderlord's Cover", "=ds=#s1#, #a2# =q1=#m1# =ds=#c1#", "?%" },
+
 		{0,"","","" },
 		{ 69167, "", "=q4=Afflictor's Helm", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
 		{ 69166, "", "=q4=Mega Destruction Goggles", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
 		{ 69165, "", "=q4=Demonologist's Cowl", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
 		{0,"","","" },
 		{ 69164, "", "=q4=Tempest's Fireguard", "=ds=#s1#, #a1# =q1=#m1# =ds=#c3#", "?%" },
+		{ 69155, "", "=q4=Tempest's Frostguard", "=ds=#s1#, #a1# =q1=#m1# =ds=#c3#", "?%" },
 		{0,"","","" },
-		{ 69163, "", "=q4=Conqueror's War-Crown", "=ds=#s1#, #a4# =q1=#m1# =ds=#c9#", "?%" },
+
 
 	};
 
@@ -4516,6 +4518,9 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 69176, "", "=q4=Combatant's Helm", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
 		{ 69177, "", "=q4=Precision Goggles ", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
 		{ 69178, "", "=q4=Dreadwalker's Hood", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
+		{0,"","","" },
+		{ 69163, "", "=q4=Conqueror's War-Crown", "=ds=#s1#, #a4# =q1=#m1# =ds=#c9#", "?%" },
+		{ 69156, "", "=q4=Primal War-Helm", "=ds=#s1#, #a4# =q1=#m1# =ds=#c4#", "?%" },
 	};
 
 	OnysLairIllidan = {
@@ -4698,7 +4703,7 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 40090, "", "=q5=Wrathcaster's Calling", "=ds=#h1#, #w10#", "20%" },
 		{ 40091, "", "=q5=Wrathcaster's Salvation", "=ds=#h1#, #w6#", "20%" },
 		{ 40092, "", "=q4=Wrathcracker", "=ds=#h2#, #w6#", "20%" },
-		{ 40093, "", "=q4=Wrathcaster's Opression", "=ds=#w4#", "20%" },
+		{ 40093, "", "=q4=Wrathcaster's Opression", "=ds=#h3# #w4#", "20%" },
 		{ 60001, "", "=q4=Wand of Wrath", "=ds=#w12#", "10%" },
 		{ 51436, "", "=q4=Waistguard of the Grand Crusader", "=ds=#s9# =q1=#m1# =ds= #c4#", "1%" },
 		{ 80191, "", "=q4=Wrathcaster's Handguard of Nature", "=ds=#s9#, #a2#", "10%" },
@@ -4728,6 +4733,7 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 80208, "", "=q4=Insignia of Multiverse Deception", "=ds=#s14# =q1=#m1# =ds= #c9# #c4# #c1#", "10%" },
 		{ 80209, "", "=q4=Fel Bearers Disc", "=ds=#w8#", "10%" },
 		{ 80196, "", "=q5=Fury of Wrath", "=ds=#s13#", "5%" },
+		{ 69120, "", "=q4=Nightseye Bludgeon", "=ds=#h3# #w6# =q1=#m1# =ds= #c7#", "?%" },
 		{ 0,"","","" },
 		{ 80203, "", "=q6=Glaive of The forgotten", "=ds=#w7#", "2.5%" },
 		{ 80200, "", "=q6=Band of the Blackwing Sage", "=ds=#s13#", "2%" },
@@ -4767,7 +4773,7 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 
 		{ 51431, "", "=q4=Handguards of the Grand Crusader", "=ds=#s9# =q1=#m1# =ds= #c4#", "1%" },
 		{ 80259, "", "=q4=Ancient Drake Fang Talisman", "=ds=#s14#", "10%" },
-		{ 80260, "", "=q4=Drake Forged Rapier", "=ds=#w10#", "10%" },
+		{ 80260, "", "=q4=Drake Forged Rapier", "=ds=#h1# #w10#", "10%" },
 		-- { 80261, "", "=q4=Drake Fire Rapier", "=ds=#w10#", "0% bfx fix servur" },
 		{ 80258, "", "=q4=Heartstriker", "=ds=#w2#", "10%" },
 		{ 0,"","","" },
@@ -4855,11 +4861,11 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 80247, "", "=q5=Goodinwindi Hunting Stick", "=ds=#w11#", "5%" },
 		{ 80241, "", "=q4=Menders Plate Pauldrons Of Blackwing-Hold", "=ds=#s3#, #a4#", "10%" },
 		{ 0,"","","" },
-		{ 80242, "", "=q4=Furious Mail Spaulders Of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
-		{ 80243, "", "=q4=Elementalists Spauldrons Of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
-		{ 80244, "", "=q4=Mender's Mail Shoulderpads of Blackwing-Hold", "=q1=#m1# =ds=#c7#", "10%" },
+		{ 80242, "", "=q4=Furious Mail Spaulders Of Blackwing-Hold", "#s3# =q1=#m1# =ds= #c7#", "10%" },
+		{ 80243, "", "=q4=Elementalists Spauldrons Of Blackwing-Hold", "#s3# =q1=#m1# =ds=#c7#", "10%" },
+		{ 80244, "", "=q4=Mender's Mail Shoulderpads of Blackwing-Hold", "#s3# =q1=#m1# =ds= #c7#", "10%" },
 		{ 0,"","","" },
-		{ 80246, "", "=q4=Mender's Leather Spaulders of Blackwing-Hold", "=q1=#m1# =ds=#c1#", "10%" },
+		{ 80246, "", "=q4=Mender's Leather Spaulders of Blackwing-Hold", "#s3# =q1=#m1# =ds=#c1#", "10%" },
 
 
 		{ 0,"","","" },
@@ -4871,7 +4877,7 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 0,"","","" },
 		{ 59182, "", "=q6=Chromatic Quickblade", "=ds=#h4#, #w10# =q1=#m1# =ds=#c6#", "1%" },
 		{ 59184, "", "=q6=Chromatic Longbow", "=ds=#w2#, =q1=#m1# =ds=#c2#", "1.5%" },
-		{ 59157, "", "=q6=Robes of Royalty", "=ds=#s5#, #a2#", "1%" },
+		{ 59157, "", "=q6=Robes of Royalty", "=ds=#s5#, #a1#", "1%" },
 		{ 0,"","","" },
 		{ 59139, "", "=q5=Alpine Glacier Water", "=ds=#s2#", "5%" },
 		{ 0,"","","" },
@@ -4902,10 +4908,14 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 	};
 
 	BWLZytolis2 = {
+		{ 69154, "", "=q5=Thunderlord's Cover", "=ds=#s1#, #a2# =q1=#m1# =ds=#c1#", "?%" },
+		{0,"","","" },
 		{ 69166, "", "=q4=Mega Destruction Goggles", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
+		{ 69167, "", "=q4=Mega Destruction Goggles", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
 		{ 69165, "", "=q4=Demonologist's Cowl", "=ds=#s1#, #a1# =q1=#m1# =ds=#c8#", "?%" },
 		{0,"","","" },
 		{ 69164, "", "=q4=Tempest's Fireguard", "=ds=#s1#, #a1# =q1=#m1# =ds=#c3#", "?%" },
+		{ 69155, "", "=q4=Tempest's Frostguard", "=ds=#s1#, #a1# =q1=#m1# =ds=#c3#", "?%" },
 		{0,"","","" },
 		{ 69163, "", "=q4=Conqueror's War-Crown", "=ds=#s1#, #a4# =q1=#m1# =ds=#c9#", "?%" },
 		{0,"","","" },
@@ -4916,6 +4926,29 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 69176, "", "=q4=Combatant's Helm", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
 		{ 69177, "", "=q4=Precision Goggles ", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
 		{ 69178, "", "=q4=Dreadwalker's Hood", "=ds=#s1#, #a2# =q1=#m1# =ds=#c6#", "?%" },
+		{0,"","","" },
+		{ 69156, "", "=q4=Primal War-Helm", "=ds=#s1#, #a4# =q1=#m1# =ds=#c4#", "?%" },
+	};
+
+  BWLElnora = {
+		{ 59167, "", "=q6=Hex Lord's Blessing", "=ds=#h3# #w6#", "?%" },
+		{ 59796, "", "=q6=Elnora's Evening Gown", "=ds=#s5#, #a1# ", "?%" },
+		{ 69151, "", "=q6=Hex Lord's Robes", "=ds=#s5#, #a1# ", "?%" },
+		{ 69143, "", "=q6=Infused Nexus Shard", "=ds=#h4# ", "?%" },
+		{0,"","","" },
+
+		{ 69138, "", "=q5=Sword Dancer's Blade", "=ds=#h3# #w10# =q1=#m1# =ds=#c6#", "?%" },
+		{ 69141, "", "=q5=Sword Dancer's Falcata", "=ds=#h4# #w10# =q1=#m1# =ds=#c6#", "?%" },
+		{ 69146, "", "=q5=Hellforge Sunderer", "=ds=#h2#, #w1#", "1%" },
+		{ 59798, "", "=q5=Hellforge Reaver", "=ds=#h3#, #w1# =q1=#m1# =ds=#c7#", "?%" },
+		{ 69150, "", "=q5=Light Shard of Healing", "=ds=#s16# #w14#", "?%" },
+		{ 69152, "", "=q5=The Last Air Mender", "=ds=#s13# ", "?%" },
+		{0,"","","" },
+		{ 59154, "", "=q3=Hellforge Breastplate", "=ds=#s5#, #a2# ", "?%" },
+		{ 69148, "", "=q4=Mana Refresher", "=ds=#s14# ", "?%" },
+		{ 69149, "", "=q5=Nature's Light of Healing", "=ds=#h4# =q1=#m1# =ds=#c1#", "?%" },
+		{ 69144, "", "=q5=Spellweaver's Tome", "=ds=#h4#", "?%" },
+
 	};
 
 	DMRhahkzor = {
@@ -5095,5 +5128,46 @@ AtlasLoot_Data["AtlasLootExpansionItems"] = {
 		{ 81410, "", "=q4=Unending Tyranny", "=ds=#h3#", "1%" },
 		{ 81411, "", "=q4=Warped Ravager", "=ds=#h2#, #w1#", "1%" },
 	};
-
+	RCCowKing = {
+		{ 59797, "", "=q6=Amora's Secret Fire", "#s2#", "?%" },
+		{ 59181, "", "=q6=Lucid Blade", "=ds=#h3# #w10# =q1=#m1# =ds=#c3#,#c8#", "?%" },
+		{ 0,"","","" },
+		{ 69145, "", "=q5=Hellforge Decapitator", "=ds=#h2#,#w1#", "?%" },
+		{ 69138, "", "=q5=Sword Dancer's Blade", "=ds=#h3# #w10# =q1=#m1# =ds=#c6#", "?%" },
+		{ 69141, "", "=q5=Sword Dancer's Falcata", "=ds=#h4# #w10# =q1=#m1# =ds=#c6#", "?%" },
+		{ 69142, "", "=q5=Sword Dancer's Quickblade", "=ds=#h4# #w10# =q1=#m1# =ds=#c6#", "?%" },
+		{ 0,"","","" },
+		{ 69113, "", "=q4=Bertoldy's Lost Bracers", "=ds=#s8#,#a4#", "?%" },
+		{ 59795, "", "=q4=Cow King's Tunic", "=ds=#s5#,#a4#", "?%" },
+		{ 0,"","","" },
+		{ 69114, "", "=q4=Prowler's Greaves", "=ds=#s12#,#a2#", "?%" },
+		{ 0,"","","" },
+		{ 69116, "", "=q4=Furious Cloth Trousers", "=ds=#s11#,#a1#", "?%" },
+		{ 69112, "", "=q4=Mender's Shackles", "=ds=#s8#,#a1#", "?%" },
+		{ 69111, "", "=q4=Incanter's Bracers", "=ds=#s8#,#a1#", "?%" },
+	};
+	RCPravus = {
+		{ 59142, "", "=q5=Hellforge Cleaver", "=ds=#h2#, #w1#", "1%" },
+		{ 59156, "", "=q5=Stable Infusion", "=ds=#s14#", "5%" },
+		{ 59144, "", "=q5=Monocle of the Smarty Pants", "=ds=#s1#, #a1#", "5%" },
+		{ 0,"","","" },
+		{ 59145, "", "=q6=Leria's Evening Gown", "=ds=#s5#, =ds=#a1#", "1%" },
+		{ 59181, "", "=q6=Lucid Blade", "=ds=#h1#, #w10# =q1=#m1# =ds= #c3# #c8#", "2%" },
+		{ 59167, "", "=q6=Hex Lord's Blessing", "=ds=#h3#, #w6#", "2%" },
+		{ 0,"","","" },
+		{ 59154, "", "=q4=Hellforge Breastplate", "=ds=#s5#, #a2#", "10%" },
+		{ 0,"","","" },
+		{ 59155, "", "=q4=Fisherman's Boots", "=ds=#s12#, #a1#", "10%" },
+		{ 59164, "", "=q4=Sun-touched Bracers", "=ds=#s8#, #a1#", "10%" },
+		{ 59165, "", "=q4=Sun-touched Boots", "=ds=#s12#, #a1#", "10%" },
+		{ 59152, "", "=q4=Spellweaver's Cowl", "=ds=#s1#, #a1#", "10%" },
+		{ 0,"","","" },
+		{ 59173, "", "=q4=Spellweaver's Wand", "=ds=#w12#", "10%" },
+		{ 59143, "", "=q4=Hellforge Pendant", "=ds=#s2#", "40%" },
+		{ 59162, "", "=q4=Locket of Blinding Light", "=ds=#s2#", "10%" },
+		{ 59138, "", "=q4=Pendant of the Damned", "=ds=#s2#", "40%" },
+		{ 0,"","","" },
+		{ 59168, "", "=q4=Hellforge Brooch", "=ds=#e15#", "10%" },
+	};
 };
+

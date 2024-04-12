@@ -855,8 +855,12 @@ AtlasLootBossButtons = {
         "BWLZytolis";
         "BWLTelarion";
         "BWLPravus";
+        "BWLElnora";
         };
-
+    RealmCow = {
+        "RCCowKing";
+        "RCPravus";
+    };
 	Deadmines2 = {
         "DMRhahkzor";
         "DMSneedShredder";

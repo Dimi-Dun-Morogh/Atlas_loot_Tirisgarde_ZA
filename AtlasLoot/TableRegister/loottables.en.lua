@@ -738,9 +738,13 @@ AtlasLoot_TableNames = {};
 	AtlasLoot_TableNames["BWLVarguk"] = { BabbleBoss["Chromatic Huntsman Varguk"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLTelarion"] = { BabbleBoss["Telarion"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLPravus"] = { BabbleBoss["Pravus"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["BWLElnora"] = { BabbleBoss["Elnora"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLShade"] = { BabbleBoss["Shade of Naal"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLZytolis"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["BWLZytolis2"] = { BabbleBoss["Zytolis"], "AtlasLootExpansionItems" };
+	-- cowking
+	AtlasLoot_TableNames["RCCowKing"] = { BabbleBoss["Cow King"], "AtlasLootExpansionItems" };
+	AtlasLoot_TableNames["RCPravus"] = { BabbleBoss["Pravus"], "AtlasLootExpansionItems" };
   --Deadmines2
 	AtlasLoot_TableNames["DMRhahkzor"] = { BabbleBoss["Rhahk'zor"], "AtlasLootExpansionItems" };
 	AtlasLoot_TableNames["DMSneedShredder"] = { BabbleBoss["Sneed's Shredder"], "AtlasLootExpansionItems" };

@@ -6221,6 +6221,11 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "ZGJindo";
 		Prev_Title = AtlasLoot_TableNames["ZGJindo"][1];
 		};
+	["BWLShade"] = {
+		Title = AtlasLoot_TableNames["BWLShade"][1];
+		Prev_Page = "BWLZytolis2";
+		Next_Page = "BWLKastyon";
+		};
 	["BWLKastyon"] = {
 		Title = AtlasLoot_TableNames["BWLKastyon"][1];
 		Next_Page = "BWLGorrak";
@@ -6249,38 +6254,43 @@ AtlasLoot_ButtonRegistry = {
 		};
 	["BWLTelarion"] = {
 		Title = AtlasLoot_TableNames["BWLTelarion"][1];
-		Next_Page = "BWLPravus";
-		Next_Title = AtlasLoot_TableNames["BWLPravus"][1];
+		Next_Page = "BWLElnora";
+		Next_Title = AtlasLoot_TableNames["BWLElnora"][1];
 		Prev_Page = "BWLVarguk";
 		Prev_Title = AtlasLoot_TableNames["BWLVarguk"][1];
 			};
-	["BWLPravus"] = {
-		Title = AtlasLoot_TableNames["BWLPravus"][1];
-		Next_Page = "BWLShade";
-		Next_Title = AtlasLoot_TableNames["BWLShade"][1];
+	-- ["BWLPravus"] = {
+	-- 	Title = AtlasLoot_TableNames["BWLPravus"][1];
+	-- 	Next_Page = "BWLShade";
+	-- 	Next_Title = AtlasLoot_TableNames["BWLShade"][1];
+	-- 	Prev_Page = "BWLTelarion";
+	-- 	Prev_Title = AtlasLoot_TableNames["BWLTelarion"][1];
+	-- 	};
+	["BWLElnora"] = {
+		Title = AtlasLoot_TableNames["BWLElnora"][1];
 		Prev_Page = "BWLTelarion";
-		Prev_Title = AtlasLoot_TableNames["BWLTelarion"][1];
-		};
-	["BWLShade"] = {
-		Title = AtlasLoot_TableNames["BWLShade"][1];
-		Prev_Page = "BWLPravus";
-		Prev_Title = AtlasLoot_TableNames["BWLPravus"][1];
 		Next_Page = "BWLZytolis";
-		Next_Title = AtlasLoot_TableNames["BWLZytolis"][1];
-		};
+	};
+
 	["BWLZytolis"] = {
 		Title = AtlasLoot_TableNames["BWLZytolis"][1].. " (page 1)";
-		Prev_Page = "BWLShade";
-		Prev_Title = AtlasLoot_TableNames["BWLShade"][1];
+		Prev_Page = "BWLElnora";
 		Next_Page = "BWLZytolis2";
 		Next_Title = AtlasLoot_TableNames["BWLZytolis2"][1];
 		};
 	["BWLZytolis2"] = {
 		Title = AtlasLoot_TableNames["BWLZytolis2"][1] .. " (page 2)";
-		Prev_Page = "BWLShade";
-		Prev_Title = AtlasLoot_TableNames["BWLShade"][1];
+		Prev_Page = "BWLZytolis";
 	};
-
+	-- cowking
+	["RCCowKing"] = {
+		Title = AtlasLoot_TableNames["RCCowKing"][1];
+		Next_Page = "RCPravus";
+	};
+	["RCPravus"] = {
+		Title = AtlasLoot_TableNames["RCPravus"][1];
+		Prev_Page = "RCCowKing";
+	};
 	["DMRhahkzor"] = {
 		Title = AtlasLoot_TableNames["DMRhahkzor"][1];
 		Next_Page = "DMSneedShredder";

@@ -176,39 +176,79 @@ AtlasLoot_DewDropDown = {
 	[4] = {
 		[AL["Custom Instances"]] = {
 			[1] = {
-				{ BabbleZone["Guth'rot's Lab"], "GuthrotsLab", "Submenu"},
-			},
+						{ BabbleZone["Blackwing Hold"], "BlackwingHold", "Submenu" }},
 			[2] = {
-				{ BabbleZone["Scarlet Monastery 2"], "SMCath", "Submenu" },
+				{ BabbleZone["Realm Of The Mad Cow King"], "RealmCow", "Submenu" }
 			},
 			[3] = {
-				{ BabbleZone["Blackrock Depths 2"], "BlackrockDepths2", "Submenu" },
+				{ BabbleZone["Guth'rot's Lab"], "GuthrotsLab", "Submenu"},
 			},
+
 			[4] = {
 				{ BabbleZone["Onyxia's Lair 2"], "OnysLair", "Submenu" },
 			},
 			[5] = {
-				{ BabbleZone["Molten Core 2"], "MoltenCore2", "Submenu" }},
+				{ BabbleZone["Blackrock Depths 2"], "BlackrockDepths2", "Submenu" },
+			},
 			[6] = {
+				{ BabbleZone["Molten Core 2"], "MoltenCore2", "Submenu" }},
+			[7] = {
 				{ BabbleZone["World's End"], "WorldsEnd", "Submenu" },
 			},
-			[7] = {
+			[8] = {
 				{ BabbleZone["Void Hold"], "VoidHold", "Submenu" },
 			},
-			[8] = {
-				{ BabbleZone["Blackwing Hold"], "BlackwingHold", "Submenu" },
-			},
 			[9] = {
-				{ BabbleZone["Deadmines 2"], "Deadmines2", "Submenu" },
+				{ BabbleZone["Scarlet Monastery 2"], "SMCath", "Submenu" },
 			},
 			[10] = {
-				{ BabbleZone["Alterac Valley"] .. " 2", "AV2Rewards", "Submenu" }
+				{ BabbleZone["Deadmines 2"], "Deadmines2", "Submenu" },
 			},
 			[11] = {
+				{ BabbleZone["Alterac Valley"] .. " 2", "AV2Rewards", "Submenu" }
+			},
+			[12] = {
 				{ BabbleZone["Grinchmas Grotto"], "Grotto", "Submenu" }
 			},
+
 		},
 	},
+	-- [4] = {
+	-- 	[AL["Custom Instances"]] = {
+	-- 		[1] = {
+	-- 			{ BabbleZone["Guth'rot's Lab"], "GuthrotsLab", "Submenu"},
+	-- 		},
+	-- 		[2] = {
+	-- 			{ BabbleZone["Scarlet Monastery 2"], "SMCath", "Submenu" },
+	-- 		},
+	-- 		[3] = {
+	-- 			{ BabbleZone["Blackrock Depths 2"], "BlackrockDepths2", "Submenu" },
+	-- 		},
+	-- 		[4] = {
+	-- 			{ BabbleZone["Onyxia's Lair 2"], "OnysLair", "Submenu" },
+	-- 		},
+	-- 		[5] = {
+	-- 			{ BabbleZone["Molten Core 2"], "MoltenCore2", "Submenu" }},
+	-- 		[6] = {
+	-- 			{ BabbleZone["World's End"], "WorldsEnd", "Submenu" },
+	-- 		},
+	-- 		[7] = {
+	-- 			{ BabbleZone["Void Hold"], "VoidHold", "Submenu" },
+	-- 		},
+	-- 		[8] = {
+	-- 			{ BabbleZone["Blackwing Hold"], "BlackwingHold", "Submenu" },
+	-- 		},
+	-- 		[9] = {
+	-- 			{ BabbleZone["Deadmines 2"], "Deadmines2", "Submenu" },
+	-- 		},
+	-- 		[10] = {
+	-- 			{ BabbleZone["Alterac Valley"] .. " 2", "AV2Rewards", "Submenu" }
+	-- 		},
+	-- 		[11] = {
+	-- 			{ BabbleZone["Grinchmas Grotto"], "Grotto", "Submenu" }
+	-- 		},
+	-- 	},
+	-- },
 	[5] = {
 		[AL["Crafting"]] = {
 			[1] = { { (GetSpellInfo(2259)), "Alchemy", "Submenu" }, },
@@ -1074,14 +1114,19 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 
 	["BlackwingHold"] = {
+		{ BabbleBoss["Shade of Naal"], "BWLShade" },
 		{ BabbleBoss["Wrathcaster Kastyon"], "BWLKastyon" },
 		{ BabbleBoss["Gorrak"], "BWLGorrak" },
 		{ BabbleBoss["Gholbine"], "BWLGholbine" },
 		{ BabbleBoss["Chromatic Huntsman Varguk"], "BWLVarguk" },
 		{ BabbleBoss["Telarion"], "BWLTelarion" },
-		{ BabbleBoss["Pravus"], "BWLPravus" },
-		{ BabbleBoss["Shade of Naal"], "BWLShade" },
+		{ BabbleBoss["Elnora"], "BWLElnora" },
 		{ BabbleBoss["Zytolis"], "BWLZytolis" },
+	},
+	-- cowking
+	["RealmCow"] = {
+		{ BabbleBoss["Cow King"], "RCCowKing" },
+		{ BabbleBoss["Pravus"], "RCPravus" },
 	},
 	["Deadmines2"] = {
 		{ BabbleBoss["Rhahk'zor"], "DMRhahkzor" },

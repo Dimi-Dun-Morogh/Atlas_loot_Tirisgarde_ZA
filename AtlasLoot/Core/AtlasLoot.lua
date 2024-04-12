@@ -37,7 +37,7 @@ local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 local VERSION_MAJOR = "4";
 local VERSION_MINOR = "07";
 local VERSION_BOSSES = "00";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Tirisgarde v1.42.0|r";
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Tirisgarde v1.42.1|r";
 ATLASLOOT_CURRENT_ATLAS = "1.01.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.01.0";
 
